@@ -1,0 +1,70 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Restaurant, Dining">
+    <title>Oyster House</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <header><img src="images/oyster-logo.jpg" width="100" height="107" alt=""/>
+      <P class="welcome">Welcome To The Oyster House!</P>
+        
+      </header>
+  	   <nav>
+  		<ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a> </li>
+        <li><a href="giftcards.html">Gift Cards </a> </li>
+        
+        <li><a href="reservations.html">Reservations</a></li>
+        <li><a href="order.html">Order Now!</a></li>
+        </ul>
+      </nav>
+      <div class="shrink">
+      
+      <h2>Please look over the Menu and place your order below</h2>
+
+        
+        <p>Required information is marked with an asterisk (*).</p>
+
+        <form method="post" action="http://webdevbasics.net/scripts/pacific.php">
+          <label for="myFName">*Name:</label>
+          <input type="text" name="myFName" id="myFName" required="required">
+
+
+          <label for="myEmail">*E-mail:</label>
+          <input type="email" name="myEmail" id="myEmail" required="required">
+
+          <label for="myPhone">*Phone:</label>
+          <input type="tel" name="myPhone" id="myPhone" required="required">
+
+          <label for="myDate">*Order Date:</label>
+          <input type="date" id="myDate" name="myDate" required="required">
+          <label for="time">*Time:</label>
+          <input type="text" name="time" id="time" required="required">
+
+          
+
+          <label for="myComments">Entrees:</label>
+          <textarea name="myComments" rows="2" cols="20" id="myComments" ></textarea>
+          
+          <label for="Sides">Sides:</label>
+          <textarea name="Sides" rows="2" cols="20" id="Sides" ></textarea>
+          <label for="Additional">Additional Comments:</label>
+          <textarea name="Additional" rows="2" cols="20" id="Additional" ></textarea>
+
+          <input type="submit" value="Submit" id="mySubmit">
+        </form>
+      
+       <footer>
+         <p>Oyster House</p>
+         <p>707 E. North st.</p>
+         <p>Gulfport, MS 39571</p>
+    <a href="mailto:OysterHouse@gmail.com">OysterHouse@Gmail.com</a>
+      </footer>
+      </div>
+    </div>   
+</body>
+</html>
