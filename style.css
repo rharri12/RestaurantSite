@@ -249,7 +249,6 @@ nav li {
 }
 
 #wrapper main menu {
-	margin-left: 143px;
 	text-align: center;
 }
 #card   {
@@ -283,3 +282,7 @@ nav   {
 	text-align: center;
 
 }
+.background {
+	background-repeat: repeat;
+	background-image: url(images/background.jpg);
+}/* http://www.freeimages.com */
